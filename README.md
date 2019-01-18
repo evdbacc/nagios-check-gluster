@@ -3,6 +3,8 @@ Check volume, bricks and free space Gluster
 
 Please file in your plugin directory /usr/lib/nagios/plugins
 
+Requirements bc awk sudo pidof and ...... gluster
+
 USAGE: 
   check_gluster.sh -v VOLUME -n BRICKS [-w GB -c GB]
      -n BRICKS: number of bricks
